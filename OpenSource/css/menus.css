@@ -1,0 +1,106 @@
+#nav ul a:link,#nav ul a:visited
+{
+	
+	font-size:25px;
+	display: block;
+	width: 220px;
+	background-color:black;
+	color:#FFFFFF ;
+	text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-weight: bold;
+	border:0px;
+}
+
+#nav ul a:hover,#nav ul a:active
+{
+	background-color:#FF9900; 
+	color:#FFFFFF ;
+}
+#nav li ul
+{
+position: absolute;
+z-index: 100;
+}
+#nav ul
+{
+text-align: center;
+margin-left:200px;
+border-radius: 10px; 
+position: relative;	
+display: inline-table;
+
+}
+
+#nav ul ul
+{
+display:none;
+}
+
+#nav ul li 
+{
+
+font-family:"SHOWCARD GOTHIC";
+list-style-type:none;
+float:left;
+background-color:black;
+
+}
+
+#nav ul li:hover > ul
+	{
+		display:block;
+		
+	}
+
+#nav ul:after 
+{
+		content: ""; clear: both; display: block;
+}
+
+#nav ul ul 
+{
+	 border-radius: 0px; padding: 0;margin:0px;
+	 top: 100%;
+}
+
+
+#nav ul ul li 
+{
+		
+		font-family:"CAPTURE IT";
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position:relative;
+		
+}
+
+
+#nav ul ul li a 
+{
+		
+		display: block; padding: 25px 40px;
+		margin:0px;
+		
+}
+
+
+#nav ul ul ul {
+	position: absolute;
+	 left: 100%; 
+	 top:0;
+}
+
+#nav ul ul ul li
+	{
+	font-family:"CAKE NOM";
+	}
+
+
+
+	
+	
+	
